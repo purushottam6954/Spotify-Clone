@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar{
-    background-color: #black;
+    background-color: black;
     width: 340px;
     border-radius: 1rem;
 }
@@ -27,6 +27,7 @@ body {
     border-radius:1rem;
     overflow: auto;
     margin-left: 0.5rem;
+    padding:0 1.5rem;
 }
 
 .music-player{
@@ -37,6 +38,7 @@ body {
     height: 72px;
 
 }
+
 
 a{
     text-decoration: none;
@@ -133,3 +135,58 @@ a{
     height:2rem;
     width: fit-content;
 }
+
+.sticky-nav{
+    display: flex;
+    padding: .1rem;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    background-color: #121212;
+    align-items:center;
+   padding:1rem 0;
+   /* margin-left: 0.5rem; */
+}
+
+.sticky-nav .nav-icons img{
+    opacity: 0.7;
+    height: 1.75rem;
+    width: 1.5rem;
+}
+
+.sticky-nav .nav-icons img:hover{
+    opacity: 1;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+   align-items: center;
+
+}
+.dark_badge{
+    background-color: black;
+    color:white;
+}
+.buttons .nav-item{
+    margin-right:1rem;
+}
+
+.card{
+    background-color:#232323;
+    width:210px;
+    border-radius:0.5rem;
+    padding:0.7rem; 
+}
+.card img{
+    width:100%;
+    border-radius:0.5rem;
+}
+ .card-title{
+    font-weight: 600;
+ }
+
+ .card-info{
+    opacity:0.6;
+    font-size: 0.9rem;
+ }
